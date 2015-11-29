@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6{
 }
 										/*HEADER*/
 
-.head-box, nav, .feature, .content{
+.head-box, nav, .feature, .content, .footer-box, .footer-bottom{
 	width: 940px;
 	margin: 0 auto;
 	position: relative;
@@ -150,8 +150,8 @@ header{
 .quicklinks{
 	display: inline-block;
 	height: 3.5rem;
-	position: absolute;
-	right: 1.1rem;
+	position: relative;
+	right: -145px;
 }
 .quicklinks li{
 	display: inline-block;
@@ -211,8 +211,8 @@ header{
 }
 .social{
 	width: 320px;
-	position: absolute;
-	right: 0;
+	position: relative;
+	right: -120px;
 	margin-top: 25px;
 }
 .social a {
@@ -418,8 +418,9 @@ section span{
 
 										/*ASIDE*/
 .toolbar{
-	position: absolute;
-	margin-left: 17px;
+	position: relative;
+	vertical-align: top;
+	margin-left: 13px;
 	width: 300px;
 	display: inline-block;
 }
@@ -536,6 +537,7 @@ footer{
 	position: relative;
 	background: #373737;
 	padding-bottom: 300px;
+	position: relative;
 }
 .footer-box{
 	background: #474747;
@@ -549,10 +551,11 @@ footer{
 }
 .footer-menu{
 	height: 67px;
-	    display: inline-block;
-    position: absolute;
+	display: inline-block;
+    position: relative;    
     padding-top: 20px;
     right: 0;
+    vertical-align: top;
 }
 .footer-menu li{
 	text-align: center;
@@ -567,4 +570,14 @@ footer{
 }
 .footer-menu a:hover{
 	background: url(img/underline.png)no-repeat 0 100%;
+}
+.footer-bottom a{
+	font-size: 12px;
+	margin-left: 10px;
+	line-height: 20px;
+	margin-top: 55px;
+}
+.footer-bottom p{
+	color: #7e7e7e;
+	margin-top: 25px;
 }
