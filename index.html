@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GoodInc</title>
-	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>GoodInc</title>
+	   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div id="wrapper">
+
+<div class="bg-box"></div>
 <header>
+<div class="bg-box-head"></div>
 	<div class="head-box">
 		<div class="logo">
-			<a href="#" class="logo-link"></a>
+			<a href="#" title="logo"></a>
 		</div>
-		<h2>Good Inc.</h2>
+		<a href="#" title="GoodInc">Good Inc.</a>
 		 <div class="select-box">
 		  <div class="newsletter general">
 		  	<form>	
@@ -34,8 +38,10 @@
 		 	</form>
 		 </div>
 		</div>
+   </div>
 </header>
 	<nav class="navigation">
+  
 		<div class="nav-top">
 			<ul class="menu">
 			<li><a href="#">Portfolio</a></li>
@@ -48,19 +54,22 @@
 			<li><a class="links" href="#">Quicklinks</a></li>
 			<li><a class="dropdown" href="#">Select from dropdown</a></li>
 		</ul>
+
 		</div>
 	<div class="nav-bottom">
+   <form>
 		<div class="inp">
 			<input
  onblur="this.value=(this.value=='')?this.title:this.value;this.style.backgroundColor='#ffffff';"
- onfocus="this.value=(this.value==this.title)?'':this.value;this.style.backgroundColor='#ffffff';"
- value="Search for somthing here"
- title="Search for somthing here"
- type="text"
- src="img/clock.png"
- class="nav-inp"
- style="outline:none;"/>
+  onfocus="this.value=(this.value==this.title)?'':this.value;this.style.backgroundColor='#ffffff';"
+    value="Search for somthing here"
+      title="Search for somthing here"
+        class="nav-inp"
+          type="search"
+            name="Q" >
+          <input type="submit" name="B" value="" >
 		</div>
+     </form>
 		<div class="findy">
 		  <form>
 			<select>
@@ -71,10 +80,10 @@
 		  </form>
 		</div>
 		<ul class="social">
-			<li><a href="#" target="_self"><img src="img/twit.png">Twitter</a></li>
-			<li><a class="face" href="#"><img src="img/face.png">Facebook</a></li>
-			<li><a class="rss" href="#"><img src="img/rss.png">RSS</a></li>
-			<li><a class="mail" href="#"><img src="img/mail.png">Mail</a></li>
+			<li><a href="#" target="_self"><img src="img/twit.png" alt="Twitter">Twitter</a></li>
+			 <li><a class="face" href="#"><img src="img/face.png" alt="Fscebook">Facebook</a></li>
+			  <li><a class="rss" href="#"><img src="img/rss.png" alt="RSS">RSS</a></li>
+			   <li><a class="mail" href="#"><img src="img/mail.png" alt="Mail">Mail</a></li>
 		</ul>
 	</div>
   </nav>
@@ -82,113 +91,121 @@
   		<div class="select-block">
   			<h2>Housework can't kill you,<br> but why take a chance?</h2>
   			 <p>Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at. Nunc convallis risus sit amet augue bibendum non lobortis eros interdum. Maecenas quis risus felis, at volutpat elit...</p>
-  			  <a href="#" class="plus"><img src="img/plus.png"></a>
+  			  <a href="#" class="plus"><img src="img/plus.png" alt="Plus"></a>
   			   <p class="data">14th April 2013</p>
-  			    <a href="#" class="arrow back"><</a>
-  			     <a href="#" class="arrow next">></a>
+  			    <a href="#" class="arrow back">&#60;</a>
+  			     <a href="#" class="arrow next">&#62;</a>
   		</div>
   		<div class="brows-block">
-  			<img src="img/most.png" height="390px" width="630">
+  			<img src="img/most.png" alt="Most">
   			 <h4>Good Inc. image cation to go here</h4>
   		</div>
   	</div>
   	<div class="slider">
-  	  <a href="#" class="add"><</a>
+  	  <a href="#" class="add"><img src="img/slider-right.png" alt="Slider"></a>
   		<div class="slaid block-1">
-  		  <a href="#" title="ADD"><img src="img/add.png"></a>
-  			<img src="img/taste.png">
+  		  <a href="#" title="ADD"><img src="img/add.png" alt="Slider"></a>
+  			<img src="img/taste.png" alt="Food" height="190" width="300">
   			 <h1>Taste & Sounds from<br> Thailand</h1>
   			  <p>We've made some small changes to BlazRobar.com...</p>
   		</div>
   		 <div class="slaid block-2">
-  		   <a href="#" title="ADD"><img src="img/add.png"></a>
-  		 	<img src="img/sea.png">
+  		   <a href="#" title="ADD"><img src="img/add.png" alt="Slider"></a>
+  		 	<img src="img/sea.png" alt="Sea" height="190" width="300">
   		 	 <h1>BlazRobar.com is<br> awesome for PSD</h1>
   		 	  <p>We've made some small changes to BlazRobar.com...</p>
   		 </div>
   		  <div class="slaid block-3">
-  		   <a href="#" title="ADD"><img src="img/add.png"></a>
-  		 	<img src="img/man.png">
+  		   <a href="#" title="ADD"><img src="img/add.png" alt="Slider"></a>
+  		 	<img src="img/man.png" alt="Man" height="190" width="300">
   		 	 <h1>Nice Looking<br> Mountains ah?</h1>
   		 	  <p>We've made some small changes to BlazRobar.com...</p>
   		 </div>
-  		 <a href="#" class="add-1">></a>
+  		 <a href="#" class="add-1"><img src="img/slider-left.png" alt="Slider"></a>
   	</div>
   	<div class="content">
   	<section>
-   <div class="reviews first">
+   <div class="reviews">
    	<h1>Good Inc. Good Choice</h1>
-   	 <span>14th January 2013</span>
+   	 <span style="padding-left: 0px;">14th January 2013</span>
    	  <span>32 Comments</span>
-   	   <span>124 Votes</span>
+   	   <span class="stars">124 Votes</span>
    	    <p>I believe that gives you lemons, you should make lemonade. And try to<br>
    	    find somebody whoose life has given then vodka, and have a party.</p>
    </div>
-   <div class="reviews second">
+   <div class="reviews">
    	<h1>Behing every great man is a woman ralling</h1>
-   	 <span>13th January 2013</span>
+   	 <span style="padding-left: 0px;">13th January 2013</span>
    	  <span>312 Comments</span>
-   	   <span>1254 Votes</span>
+   	   <span class="stars">1254 Votes</span>
    	    <p>Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at.<br>
    	    Nunc convallis risus sit amet augue bibendum non lobortis eros interdum.</p>
    </div>
-   <div class="reviews third">
+   <div class="reviews">
    	 <h1>A day without sunshine is like, you know, night.</h1>
-   	  <span>13th January 2013</span>
+   	  <span style="padding-left: 0px;">13th January 2013</span>
    	   <span>312 Comments</span>
    </div>
    <div class="revievs-small">
    	 <h3>As a child my family's menu consisted of two choices: take it</h3>
-   	  <span>13th January 2013</span>
+   	  <span style="padding-left: 0px;">13th January 2013</span>
    	   <span>312 Comments</span>
    </div>
    <div class="revievs-small">
    	 <h3>Get your facts first, then you can distort them as you please.</h3>
-   	  <span>13th January 2013</span>
+   	  <span style="padding-left: 0px;">13th January 2013</span>
    	   <span>312 Comments</span>
    </div>
    <div class="revievs-small">
    	 <h3>As a child my family's menu consisted of two choices: take it</h3>
-   	  <span>13th January 2013</span>
+   	  <span style="padding-left: 0px;">13th January 2013</span>
    	   <span>312 Comments</span>
    </div>
    <div class="revievs-small">
    	 <h3>Get your facts first, then you can distort them as you please.</h3>
-   	  <span>13th January 2013</span>
+   	  <span style="padding-left: 0px;">13th January 2013</span>
    	   <span>312 Comments</span>
    </div>
    <div class="read-more">
-   	<span class="read">READ MORE</span>
+   	<a href="#" class="read">READ MORE</a>
    </div>
    <div class="website-design">
-   	<span>Search work by</span>
-   	 <span>Website Design</span>
+   	<span><a href="#">Search work by<img src="img/paste.gif" alt="paste"></a></span>
+   	 <span><a href="#">Website Design<img src="img/strelki-orange.gif" alt="strelki"></a></span>
    </div>
    <div class="text-box-01">
+    <a href="#" class="add-text-box">+</a>
    	<h1>Nice text boxage here</h1>
-   	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus.<br>Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt.<br>Check leo dignissim +</p>
+   	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus.<br>Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt.<br><a href="#">Check leo dignissim +</a></p>
 <p>Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur<br>iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum<br>ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem.<br>Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus<br>massa, non laoreet lorem fringilla non.</p>
+    <div class="bottom-text-box">
+      <span>19th April</span>
+       <span class="like"><a href="#" title="like">23</a></span>
+    </div>
    </div>
    <div class="text-box-02">
-    <img src="img/roof-text-box.png" height="305px" width="622px">
-   	<h1>I like long walks, especially when they are<br>taken by people who really annoy me.</h1>
-   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt.<br>Check leo dignissim +</p>
+    <a href="#" class="pin-up">></a>
+     <a href="#" class="pin-add">+</a>
+      <img src="img/roof-text-box.png" alt="Roof" height="305" width="622">
+   	   <h1>I like long walks, especially when they are<br>taken by people who really annoy me.</h1>
+   	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt.<br>Check leo dignissim +</p>
    </div>
    <div class="text-box-03">
-   	<h1>A slightly different text box</h1>
-   	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim +</p>
+    <a href="#" class="add-text-box">+</a>
+   	 <h1>A slightly different text box</h1>
+   	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae sapien bibendum tincidunt. Check leo dignissim +</p>
 	  <p>Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
 		<p>Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.</p>
    </div>
    </section>	
    <aside class="toolbar">
    <div class="rec-block">
-   	<img src="img/roof.png" height="295px" width="300px">
+   	<img src="img/roof.png" alt="Roof" height="295" width="300">
    	 <h1>Nice Looking Mountains Ah?</h1>
    	  <p>Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at. Nunc convallis risus sit amet augue bibendum non lobortis eros interdum. Maecenas quis risus felis, at volutpat elit. Proin vel nisi in orci venenatis suscipit
    	  eget sed lectus.</p>
    </div>
-   <div class="recent-post">
+   <div class="recent-post bor-bot">
    	 <h3>Housework can't kill you, but why<br>
    	 take a chance?</h3>
    	  <p>Quisque accumsan eleifend dolor, nec bibendum<br> 
@@ -213,14 +230,30 @@
    		   <li><a href="#">Video Testimonails<span>(John Smith)</span></a></li>
    	</ul>
    </div>
+    <div class="stats">
+      <ul>
+        <li>1980</li>
+         <li>126</li>
+          <li>42</li>
+           <li>1</li>
+      </ul>
+       <ul>
+         <li><img src="img/3d-glasess.gif" alt="glasess">Active Readers</li>
+          <li><img src="img/pencil.gif" alt="pencil">Post Articles</li>
+           <li><img src="img/download.gif" alt="download">Free Downloads</li>
+            <li><img src="img/g.gif" alt="G">§Good Inc.</li>
+       </ul>
+    </div>
    </aside>
    </div>
 <footer>
+ <div class="bg-box"></div>
 	<div class="footer-box">
+   <div class="footer-wrap">
 	 <div class="logo">
-		<a href="#" class="logo-link"></a>
+		<a href="#" title="logo"></a>
 	  </div>
-	 <h2>Good Inc.</h2>
+	 <a href="#" title="GoodInc">Good Inc.</a>
 	  	<ul class="footer-menu">
 			<li><a href="#">Portfolio</a></li>
 			 <li><a href="#">Services</a></li>
@@ -228,7 +261,9 @@
 			   <li><a href="#">Articles</a></li>
 			    <li><a href="#">Contact</a></li>
 		</ul>
+    </div>
 	</div>
+  <div class="bg-box-head"></div>
 	<div class="footer-bottom">
 		<ul>
 			<li><a href="#">About us</a></li>
@@ -239,5 +274,6 @@
 		 <p>As cross as a hoon my built like a op shop. We're going bored sh*tless heaps she'll be right budgie smugglers. Grab us a durry mate she'll be right dunny rat.<br>She'll be right larrikin with skite. As stands out like kero it'll be truckie.</p>
 	</div>
 </footer>
+</div>
 </body>
 </html>
